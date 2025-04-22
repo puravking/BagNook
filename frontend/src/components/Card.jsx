@@ -10,6 +10,7 @@ function Card({ elem }) {
                 <p className="text-xl font-bold text-green-600">${price}</p>
             </div>
             <p className="text-sm text-gray-700">{details}</p>
+            <button className='cursor-pointer bg-green-200 rounded-lg p-2 mt-2 text-center'>Add to Cart</button>
         </div>
     )
 }
